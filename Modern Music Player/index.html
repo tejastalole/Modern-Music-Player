@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Modern Music Player</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="music-player">
+    <div id="container">
+        <div id="card">
+                <img src="banner.png" alt="" id="banner">
+                <img src="music-icon.png" alt="" id="music-icon">
+        </div>
+    </div>
+  <audio id="audio" src="song.mp3"></audio>
+
+  <div class="progress-container" id="progressContainer">
+    <div class="progress-track"></div>
+    <div class="progress-bar" id="progressBar">
+      <div class="progress-thumb" id="progressThumb"></div>
+    </div>
+  </div>
+
+  <button id="playPauseBtn" class="play-button">▶</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
